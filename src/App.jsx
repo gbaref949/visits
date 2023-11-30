@@ -1,10 +1,11 @@
+import './App.css';
 import Views from './components/Views';
 
 const App = () => {
   return (
-    <div>
-      <h1>Welcome, this is how many times you've viewed this page</h1>
-      <Views />
+    <div className="App-header">
+      <h1 className="App-header" style={{margin: "-13rem"}}>Welcome, this is how many times you've viewed this page</h1>
+      <Views/>
     </div>
   )
 }
