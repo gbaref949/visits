@@ -16,7 +16,7 @@ const Views = () => {
   return (
     // This consists of the html tags with onclicks and classes with inline css
     <div>
-    <h1 style={{margin: "-11rem"}}>I have been view {count} times</h1>
+    <h1 style={{margin: "-11rem"}}>I have been viewed {count} times</h1>
     <br/>
     <button style={{margin: "10rem", height: '50px', width:'80px', textAlign: 'center'}} className='btn' onClick={reset}>RESET</button>
     </div>
