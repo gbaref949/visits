@@ -19,6 +19,7 @@ const Views = () => {
     <h1 style={{margin: "-11rem"}}>I have been viewed {count} times</h1>
     <br/>
     <button style={{margin: "10rem", height: '50px', width:'80px', textAlign: 'center'}} className='btn' onClick={reset}>RESET</button>
+    <button style={{margin: "10rem", height: '50px', width:'80px', textAlign: 'center'}} className='btn' onClick={()=>{window.location.reload()}}>RELOAD PAGE</button>
     </div>
   )
 }
